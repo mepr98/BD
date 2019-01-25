@@ -10,7 +10,7 @@ html(lang="en")
   body
     // Header
     header
-      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
         a.navbar-brand(href="#") Navbar
         button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
           span.navbar-toggler-icon
@@ -23,7 +23,24 @@ html(lang="en")
               a.nav-link(href="#") Link
     // Main Content
     main
-      block content
+     block content
+      div.row
+        div.col-md-6.mt-4.text-center
+          table.table.table-stripped
+            tr
+              th ID
+              th TT
+              th yy
+             for (var x = 0; x < 3; x++)
+              tr
+                td
+
+             
+
+
+     
+
+                
     // Footer
     footer
     // Scripts
